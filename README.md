@@ -1,6 +1,7 @@
 # Connect 4 AI: Data-Driven Strategy and Full-Stack Deployment
 
 This project documents the development of a competitive Connect 4 artificial intelligence. We built a custom dataset, trained two different neural network architectures (a CNN and a Transformer), and deployed the final models to a live web environment using Docker and AWS.
+![Landing page](Landingpage.png)
 
 ## 1. Data Generation with Monte Carlo Tree Search (MCTS)
 The foundation of this project is a high-quality dataset of expert moves. Since Connect 4 is a solved game, we used Monte Carlo Tree Search to act as our "expert" player.
@@ -29,6 +30,9 @@ To make the AI accessible to users, we built a multi-layered hosting solution.
 A common issue with neural networks in games is the prediction of "illegal" moves (e.g., trying to place a checker in a column that is already full). We solved this by implementing a masking layer. Before the AI makes its final choice, the code identifies all legal columns and sets the probability of any illegal move to negative infinity, forcing the model to select the best possible valid move.
 
 ## 5. How to Play
+![Landing page](game_ss.png)
+
+
 The project is live and accessible via the web. Users are required to log in to access the game board and the technical analysis.
 
 **Live Application**: [MSBA25optim2-10.anvil.app](https://MSBA25optim2-10.anvil.app)  (might not work if this repository is too old)

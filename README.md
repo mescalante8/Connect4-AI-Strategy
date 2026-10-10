@@ -1,5 +1,7 @@
 # Connect 4 AI: Data-Driven Strategy and Full-Stack Deployment
 
+My contribution: I worked on training the neural network models that play Connect 4 and contributed to the web page development used to deploy them. Our team of four collaborated on every stage of the project, from data generation to deployment.
+
 This project documents the development of a competitive Connect 4 artificial intelligence. We built a custom dataset, trained two different neural network architectures (a CNN and a Transformer), and deployed the final models to a live web environment using Docker and AWS.
 ![Landing page](Landingpage.png)
 
